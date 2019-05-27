@@ -15,14 +15,14 @@ public class Client {
     private Integer age;
 
     @ManyToOne
-    @JoinColumn(name = "Product_ID")
+    @JoinColumn(name = "idProduct")
     private Product product;
 
     @OneToMany
-    @JoinColumn (name ="Order_ID")
+    @JoinColumn (name ="idOrder")
     private Order order;
 
-    @JoinColumn(name = "Detail_ID")
+    @JoinColumn(name = "idDetail")
     private Detail detail;
 
     public Client() {
