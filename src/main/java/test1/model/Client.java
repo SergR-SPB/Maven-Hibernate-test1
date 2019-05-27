@@ -2,6 +2,7 @@ package test1.model;
 
 import javax.persistence.*;
 
+
 @Entity
 
 public class Client {
