@@ -8,7 +8,7 @@ import javax.persistence.Persistence;
 
 public class CreateEmployee {
     public static void main(String[] args) {
-        EntityManagerFactory emfactory =  Persistence .createEntityManagerFactory ( "Hibernate_JPA" );
+        EntityManagerFactory emfactory =  Persistence .createEntityManagerFactory ( "Clients" );
 
         EntityManager entitymanager = emfactory .createEntityManager( );
         entitymanager.getTransaction ( ).begin (  );
