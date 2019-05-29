@@ -10,13 +10,24 @@
         <class>test1.model.Book</class>
         <class>test1.model.Author</class>
 
-        <properties>
-            <property name="javax.persistence.jdbc.driver" value="org.h2.Driver" />
-            <property name="javax.persistence.jdbc.url"    value="jdbc:h2:mem:bookstore" />
-            <property name="javax.persistence.jdbc.user" value="sa" />
-            <property name="javax.persistence.jdbc.password" value="" />
+        <class>task3_Hibernet.Client</class>
+        <class>task3_Hibernet.Product</class>
+        <class>task3_Hibernet.Detail</class>
+        <class>task3_Hibernet.Order</class>
 
-            <property name="hibernate.dialect" value="org.hibernate.dialect.H2Dialect"/>
+
+
+        <class>test2.wwwTutorialspointJpa.entity.Employee</class>
+
+
+
+        <properties>
+            <property name="javax.persistence.jdbc.driver" value="org.postgresql.Driver" />
+            <property name="javax.persistence.jdbc.url"    value="jdbc:postgresql://localhost:5432/Clients" />
+            <property name="javax.persistence.jdbc.user" value="postgres" />
+            <property name="javax.persistence.jdbc.password" value="postgres" />
+
+            <property name="hibernate.dialect" value="org.hibernate.dialect.postgresqlDialect"/>
             <property name="hibernate.hbm2ddl.auto" value="update" />
             <property name="show_sql" value="true"/>
             <property name="hibernate.temp.use_jdbc_metadata_defaults" value="false"/>
