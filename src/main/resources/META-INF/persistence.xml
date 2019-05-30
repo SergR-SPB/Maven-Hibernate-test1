@@ -28,7 +28,7 @@
             <property name="javax.persistence.jdbc.password" value="postgres" />
 
             <property name="hibernate.dialect" value="org.hibernate.dialect.postgresqlDialect"/>
-            <property name="hibernate.hbm2ddl.auto" value="update" />
+            <property name="hibernate.hbm2ddl.auto" value="create" />
             <property name="show_sql" value="true"/>
             <property name="hibernate.temp.use_jdbc_metadata_defaults" value="false"/>
             <property name="hibernate.format_sql" value="true"/>
